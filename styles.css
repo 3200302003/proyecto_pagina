@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.footer .navbar,
+.footer .navbar-nav .nav-link {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.footer .nav-link p {
+    margin-bottom: 0;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#navlist li,
+#navlist a {
+    height: 44px;
+    display: block;
+}
